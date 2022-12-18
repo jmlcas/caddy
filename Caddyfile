@@ -1,9 +1,12 @@
-{
-  email labarta31@gmail.com
-}  
+ 
+ https://pruebas.labarta.eu {
+    tls internal
+    reverse_proxy  185.61.126.168:8200
+}
 
-  pruebas.labarta.eu {
-    reverse_proxy  http://185.61.126.168:8200/
- } 
+  http://pruebas.labarta.eu {
+    reverse_proxy  185.61.126.168:8200
+}
+
 
 
