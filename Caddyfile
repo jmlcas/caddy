@@ -1,12 +1,11 @@
+{
+    email nombre@gmail.com
+}
  
- https://pruebas.labarta.eu {
-    tls internal
-    reverse_proxy  185.61.126.168:8200
+sub.dominio.com {
+    reverse_proxy  IP:puerto
 }
 
-  http://pruebas.labarta.eu {
-    reverse_proxy  185.61.126.168:8200
-}
 
 
 
