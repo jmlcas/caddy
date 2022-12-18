@@ -1,8 +1,5 @@
- jellyfin.midominio.org {
-   reverse_proxy  http://192.168.1.100:8200
+ pruebas.labarta.eu {
+   reverse_proxy  http://185.61.126.168:8200/
  } 
 
 
- navidrome.midominio.org {
-   reverse_proxy http://192.168.1.100:8300
- }
