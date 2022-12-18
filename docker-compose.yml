@@ -8,9 +8,6 @@ services:
     ports:
       - "80:80"
       - "443:443"
-      - "443:443/udp"
-    networks:
-      - caddy   
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
       - ./site:/srv
@@ -21,5 +18,3 @@ volumes:
   caddy_data:
   caddy_config:
 
-networks:
-  caddy:
