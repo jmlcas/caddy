@@ -5,7 +5,7 @@ services:
     container_name: caddy
     restart: unless-stopped
     environment:
-      - TZ=Europe/Madrid    
+      - TZ=Europe/Madrid
     cap_add:
       - NET_ADMIN
     ports:
@@ -26,4 +26,4 @@ volumes:
 
 networks:
   caddy:
-    external: true     
+    external: true
