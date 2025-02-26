@@ -17,12 +17,12 @@ services:
       - ./site:/srv
       - caddy_data:/data
       - caddy_config:/config
-     networks:
+    networks:
       - caddy 
 
 volumes:
-  caddy-config:
-  caddy-data:
+  caddy_config:
+  caddy_data:
 
 networks:
   caddy:
