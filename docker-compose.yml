@@ -2,7 +2,10 @@ services:
 
   caddy:
     image: caddy:latest
+    container_name: caddy
     restart: unless-stopped
+    environment:
+      - TZ=Europe/Madrid    
     cap_add:
       - NET_ADMIN
     ports:
