@@ -3,7 +3,7 @@
     email   nombre@gmail.com   # Poner email válido
 }
  
-sub.dominio.com {
+sub.dominio.com {              # Poner subdominio ó dominio válido con DNS redirigido 
     reverse_proxy  IP:puerto   # Poner IP:puerto
 }
 
