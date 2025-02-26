@@ -17,8 +17,13 @@ services:
       - ./site:/srv
       - caddy_data:/data
       - caddy_config:/config
+     networks:
+      - caddy 
 
 volumes:
-  caddy_data:
-  caddy_config:
+  caddy-config:
+  caddy-data:
 
+networks:
+  caddy:
+    external: true     
