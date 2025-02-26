@@ -1,9 +1,10 @@
-{
-    email nombre@gmail.com
+{   
+    acme_ca https://acme-v02.api.letsencrypt.org/directory
+    email   nombre@gmail.com   # Poner email válido
 }
  
 sub.dominio.com {
-    reverse_proxy  IP:puerto
+    reverse_proxy  IP:puerto   # Poner IP:puerto
 }
 
 
